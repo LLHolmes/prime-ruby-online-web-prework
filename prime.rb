@@ -1,6 +1,6 @@
 def prime?(int)
   test_array = (2...int.abs).to_a
-  puts test_array
+  puts test_array.
   test_array.each do |number|
     puts int.abs
     puts number

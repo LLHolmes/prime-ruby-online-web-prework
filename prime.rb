@@ -1,5 +1,6 @@
 def prime?(int)
-  if int == int.abs
+  if int != int.abs
+    return false
   test_array = (2...int).to_a
   test_array.each do |number|
     if (int % number) == 0

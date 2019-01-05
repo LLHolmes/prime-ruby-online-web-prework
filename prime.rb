@@ -1,15 +1,11 @@
 def prime?(int)
-  test_array = (2...int.abs).to_a
-  puts test_array.inspect
+  if int == int.abs
+  test_array = (2...int).to_a
   test_array.each do |number|
-    puts int.abs
-    puts number
-    if (int.abs % number) == 0
-      puts "false"
+    if (int % number) == 0
       return false
     end
   end
-  puts "true"
   return true
 end
 

@@ -1,6 +1,5 @@
 def prime?(int)
   if int != int.abs
-    puts "false"
     return false
   end
   test_array = (2...int).to_a
@@ -11,5 +10,3 @@ def prime?(int)
   end
   return true
 end
-
-prime?(-1)

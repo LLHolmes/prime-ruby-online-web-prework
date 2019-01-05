@@ -1,5 +1,5 @@
 def prime?(int)
-  if int < 1
+  if int <= 1
     return false
   end
   test_array = (2...int).to_a

@@ -1,5 +1,5 @@
 def prime?(int)
-  if int != int.abs
+  if int != int.abs || int == 0
     return false
   end
   test_array = (2...int).to_a
